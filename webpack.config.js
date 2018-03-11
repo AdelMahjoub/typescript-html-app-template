@@ -50,10 +50,8 @@ const config = {
         new HtmlWebpackPlugin({ 
             template: path.resolve('src/index.html'),
             base: { href: '' },
-            title: 'phaser typescript webpack template',
+            title: 'typescript webpack template',
             inject: 'body',
-            chunks: ['phaser', 'bundle'],
-            chunkSortMode: 'manual',
             minify: {
                 minifyCSS: !dev,
                 minifyJS: !dev,
